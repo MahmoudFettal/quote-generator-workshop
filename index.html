@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Quote generator workshop</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <main class="blockquote">
+      <hr class="hr-text" data-content="Tech quotes" />
+      <h1 id="quote">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem,
+        perferendis.
+      </h1>
+      <h2 id="author">Anonymous</h2>
+    </main>
+    <button class="generate">
+      <img src="static/images/refresh-line.svg" alt="spin" />
+    </button>
+    <script src="./static/js/load.js"></script>
+
+  </body>
 </html>
